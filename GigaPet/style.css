@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(assets/Void_An_Unknowable_Power.jpg);
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+    color: white;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+  
+  .center{
+    text-align: center;
+    padding: auto;
+  }
+
+  main {
+    display:block;
+    height:175px;
+  }
+  
+  header {
+    border-bottom: 1px solid #fafafa;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    color: white;
+    text-align: center;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  
+  .pet-image {
+    width:300px;
+  }
+  
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    text-align: center;
+    padding:10px;
+    padding-bottom:10px;
+    margin: auto;
+  }
+  
+  .dashboard {
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding:20px;
+    margin: auto;
+    font-size: 1.2em;
+  }
+  
+  .button-container {
+    margin-top:20px;
+    text-align: center;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+    font-size:15px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
+
+  .text{
+    color: white;
+  }
+
+  .textOver{
+    color: white;
+    padding-top: 5px;
+    font-size: 1.5em;
+  }
